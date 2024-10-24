@@ -1,6 +1,7 @@
 {
   "name": "react-ecommerce",
   "version": "0.1.0",
+  "homepage": "react-ecommerce",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
