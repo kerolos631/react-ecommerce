@@ -13,7 +13,7 @@ const Product = lazy(() => import("./pages/Product"));
 function App() {
   return (
     <Suspense fallback={<Loader />}>
-      <Router>
+      <Router basename="react-ecommerce">
         <ToastContainer
           position="top-right"
           autoClose={1000}
